@@ -24,6 +24,8 @@ public class BoardServiceImpl implements BoardService {
         
         List<BoardDTO> list = boardMapper.boardList();
 
+        log.info(list);
+
         return list;
     }
 
